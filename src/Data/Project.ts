@@ -2,6 +2,7 @@
 import tunartisan from "../assets/Projects/Tunartisan.jpg";
 import audacity from "../assets/Projects/Audacity.png";
 import aws from "../assets/Projects/aws.jpg";
+import cement from "../assets/Projects/cementry.png";
 
 export interface Project {
     title: string;
@@ -40,8 +41,7 @@ export interface Project {
       description:
         "Mobile application for a cement company built during a hackathon, featuring location-based services.",
       tech: ["Flutter", "MongoDB", "OpenStreetMap"],
-      image:
-        "https://images.unsplash.com/photo-1416331108676-a22ccb276e35?auto=format&fit=crop&q=80",
+      image: cement,
       link : "https://github.com/Ferjaboss/CementMob"
     },
   ];
