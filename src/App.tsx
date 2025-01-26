@@ -9,8 +9,11 @@ import {
 import ProjectCard from "./components/ProjectCard";
 import TechStack from "./components/TechStack";
 import photo from "./assets/Bechir.jpeg";
-import { projects } from "./data/Projects.json";
+import { projects } from "./Data/Project";
+
+
 function App() {
+ 
   return (
     <div className="min-h-screen bg-gray-50">
       {/* Hero Section */}
@@ -120,17 +123,16 @@ function App() {
             Featured Projects
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-6xl mx-auto">
-            
-          {projects.map((project) => (
-            <ProjectCard
-              key={project.title}
-              title={project.title}
-              description={project.description}
-              tech={project.tech}
-              image={project.image}
-              link={project.link}
-            />
-          ))}
+            {projects.map((project) => (
+              <ProjectCard
+                key={project.title}
+                title={project.title}
+                description={project.description}
+                tech={project.tech}
+                image={project.image}
+                link={project.link}
+              />
+            ))}
           </div>
         </div>
       </section>
@@ -142,7 +144,9 @@ function App() {
             Technical Skills
           </h2>
           <TechStack />
+        
         </div>
+        
       </section>
 
       {/* Footer */}
