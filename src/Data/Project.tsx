@@ -3,6 +3,9 @@ import tunartisan from "../assets/Projects/Tunartisan.jpg";
 import audacity from "../assets/Projects/Audacity.png";
 import aws from "../assets/Projects/aws.jpg";
 import cement from "../assets/Projects/cementry.png";
+import budgetta from "../assets/Projects/budgetta.jpg";
+import chatbot from "../assets/Projects/AiChatbot.jpg";
+import portfolio from "../assets/Projects/portfolio.png";
 
 export interface Project {
     title: string;
@@ -13,6 +16,13 @@ export interface Project {
   }
   
   export const projects: Project[] = [
+    {
+      title: "Portfolio",
+      description:
+        "Dymamic portfolio website built with Laravel , Blade and MySQL",
+      tech: ["Laravel", "Blade", "MySQL"],
+      image: portfolio,
+    },
     {
       title: "Tunartisan",
       description:
@@ -44,4 +54,18 @@ export interface Project {
       image: cement,
       link : "https://github.com/Ferjaboss/CementMob"
     },
+    {
+      title: "Budgetta",
+      description:
+        "A budget tracking app built with Flutter and Hive for local storage.",
+      tech: ["Flutter", "Hive", "Dart"],
+      image: budgetta,
+    },
+    {
+      title: "AI Chatbot",
+      description:
+        "A chatbot Agent that uses Ollama API to generate responses to user queries.",
+      tech: ["Python", "Flask", "Ollama API", "React"],
+      image: chatbot,
+    }
   ];

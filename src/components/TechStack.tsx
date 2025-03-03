@@ -18,6 +18,13 @@ import jenkins from './../assets/Skills/jenkins.png';
 import go from './../assets/Skills/go.png';
 import python from './../assets/Skills/python.png';
 import oracle from './../assets/Skills/oracle.png';
+import  php  from './../assets/Skills/php.png';
+import  java  from './../assets/Skills/java.png';
+import  symfony  from './../assets/Skills/symfony.png';
+import  laravel  from './../assets/Skills/laravel.png';
+import  blade  from './../assets/Skills/blade.png';
+import  twig  from './../assets/Skills/Twig.png';
+import pg from './../assets/Skills/pgsql.png';
 interface Skill {
   name: string;
   icon: React.ReactNode;
@@ -42,13 +49,20 @@ const TechStack: React.FC = () => {
         { name: "Tailwind CSS", icon: <img src={tailwind} className="w-5 h-5 object-contain" /> },
         { name: "Material UI", icon: <Palette className="w-5 h-5 object-contain" /> },
         { name: "Angular", icon: <img src={angular} className="w-5 h-5 object-contain" /> },
-        { name: "Flutter", icon: <img src={flutter} className="w-5 h-5 object-contain" /> }
+        { name: "Flutter", icon: <img src={flutter} className="w-5 h-5 object-contain" /> },
+        { name: "Blade", icon: <img src={blade} className="w-5 h-5 object-contain" /> },
+        { name: "Twig", icon: <img src={twig} className="w-5 h-5 object-contain" /> }
+
       ]
     },
     {
       //     'Backend': ['Spring Boot', 'Node.js', 'Express'],
       name: "Backend Development",
       skills: [
+        { name: "Java", icon: <img src={java} className="w-5 h-5 object-contain" /> },
+        { name: "PHP", icon: <img src={php} className="w-5 h-5 object-contain" /> },
+        { name: "Symfony", icon: <img src={symfony} className="w-5 h-5 object-contain" /> },
+        { name: "Laravel", icon: <img src={laravel} className="w-5 h-5 object-contain" /> },
         { name: "Node js", icon: <img src={node} className="w-5 h-5 object-contain" /> },
         { name: "Spring Boot", icon: <img src={springboot} className="w-5 h-5 object-contain" /> },
         { name: "Express", icon: <img src={express} className="w-5 h-5 object-contain" /> }
@@ -59,7 +73,9 @@ const TechStack: React.FC = () => {
       skills: [
         { name: "MySQL", icon: <img src={mysql} className="w-5 h-5 object-contain" /> },
         { name: "MongoDB", icon: <img src={mongodb} className="w-5 h-5 object-contain" /> },
-        { name: "Oracle 11g", icon: <img src={oracle} className="w-5 h-5 object-contain" /> }
+        { name: "Oracle 11g", icon: <img src={oracle} className="w-5 h-5 object-contain" /> },
+        { name: "PostgreSQL", icon: <img src={pg} className="w-5 h-5 object-contain" /> }
+
       ]
     },
     {
