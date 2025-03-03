@@ -3,7 +3,7 @@ import tunartisan from "../assets/Projects/Tunartisan.jpg";
 import audacity from "../assets/Projects/Audacity.png";
 import aws from "../assets/Projects/aws.jpg";
 import cement from "../assets/Projects/cementry.png";
-import budgetta from "../assets/Projects/budgetta.jpg";
+import budgetta from "../assets/Projects/Budgetta.jpg";
 import chatbot from "../assets/Projects/AiChatbot.jpg";
 import portfolio from "../assets/Projects/portfolio.png";
 
